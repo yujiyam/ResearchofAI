@@ -19,13 +19,6 @@ api_url = 'https://japanwest.api.cognitive.microsoft.com/face/v1.0/detect'
 # 引数でカメラを選べれる。
 cap = cv2.VideoCapture(0)
 
-#params = urllib.parse.urlencode({
-#    # Request parameters
-#    'returnFaceId': 'false',
-#    'returnFaceLandmarks': 'false',
-#    'returnFaceAttributes': 'emotion',
-#})
-
 params = {
     # Request parameters
     'returnFaceId': 'false',
